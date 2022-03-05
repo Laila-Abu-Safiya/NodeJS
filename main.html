@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<html>
+<head>
+    <title>Read Text File</title>
+</head>
+<body>
+<input id='selectedfile' type='text' name='selectedfile'>
+<input id='inputfile' type='file' name='inputfile' onchange="readPlain()">
+<br><br>
+<pre id="output"></pre>
+<script src="main.js"></script>
+<!--<script>
+    document.getElementById('inputfile')
+        .addEventListener('change', function() {
+            var fr=new FileReader();
+            fr.onload=function(){
+                document.getElementById('output')
+                    .textContent=fr.result;
+            }
+            fr.readAsText(this.files[0]);
+        })
+</script>-->
+
+</body>
+</html>
+
+</body>
+</html>
